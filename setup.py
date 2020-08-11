@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
+requirements = ["nltk"]
 
 setup(
     name="commentcleaner_new",
@@ -22,3 +22,4 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     ],
 )
+

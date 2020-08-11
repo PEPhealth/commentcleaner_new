@@ -7,14 +7,14 @@ requirements = ["nltk"]
 
 setup(
     name="commentcleaner_new",
-    version="0.0.1",
+    version="0.0.2",
     author="Bobby Lowe",
     author_email="bobby.lowe@pephealth.ai",
     description="Cleans comments for scraping scrpts",
     long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/PEPhealth/commentcleaner_new",
-    download_url = 'https://github.com/PEPhealth/commentcleaner_new/archive/v_03.tar.gz',
+    download_url = 'https://github.com/PEPhealth/commentcleaner_new/archive/v_04.tar.gz',
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[

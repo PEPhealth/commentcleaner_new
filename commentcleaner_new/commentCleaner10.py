@@ -372,7 +372,10 @@ def commentCleaner(x,y):
     
 
     x[y] = x[y].replace('www. ', 'www.', regex=True)
-        
+    x[y] = x[y].replace('t.co / ', 't.co/', regex=True)
+
+    
+    
 #    x[y] = x[y].replace("http:\/\/t\.\sco\s\/\s", "http://t.co/", regex=True)
 #    x[y] = x[y].replace("https:\/\/t\.\sco\s\/\s", "https://t.co/", regex=True)
 #    

@@ -35,6 +35,8 @@ def commentCleaner(x,y):
     x[y] = x[y].replace("\&tilde;","˜", regex=True)
     x[y] = x[y].replace("\&ndash;","–", regex=True)
     x[y] = x[y].replace("\&mdash;","–", regex=True)
+    x[y] = x[y].replace("\&#39;","'", regex=True)
+        
 
     x[y] = x[y].replace("\r"," ", regex=True)
     x[y] = x[y].replace(r"\\r"," ", regex=True)
@@ -346,7 +348,10 @@ def commentCleaner(x,y):
 
     x[y] = x[y].replace("1f3fb", "", regex=True)
     
-
+    x[y] = x[y].replace("\u2066", " ", regex=True)
+    x[y] =  x[y].replace("\u2069", " ", regex=True)
+    x[y] =  x[y].replace("\n", "", regex=True)
+    
     # Remove multiple spaces
     x[y] = x[y].replace("          ", " ",regex=True)
     x[y] = x[y].replace("         ", " ",regex=True)
@@ -372,6 +377,10 @@ def commentCleaner(x,y):
     
 
     x[y] = x[y].replace('www. ', 'www.', regex=True)
+    x[y] = x[y].replace('t.co / ', 't.co/', regex=True)
+
+
+
         
 #    x[y] = x[y].replace("http:\/\/t\.\sco\s\/\s", "http://t.co/", regex=True)
 #    x[y] = x[y].replace("https:\/\/t\.\sco\s\/\s", "https://t.co/", regex=True)

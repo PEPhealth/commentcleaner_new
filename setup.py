@@ -7,7 +7,7 @@ requirements = ["nltk"]
 
 setup(
     name="commentcleaner_new",
-    version="0.0.2",
+    version="0.0.3",
     author="Bobby Lowe",
     author_email="bobby.lowe@pephealth.ai",
     description="Cleans comments for scraping scrpts",

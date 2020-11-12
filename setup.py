@@ -14,7 +14,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/PEPhealth/commentcleaner_new",
-    download_url = 'https://github.com/PEPhealth/commentcleaner_new/archive/v_04.tar.gz',
+    download_url = 'https://github.com/PEPhealth/commentcleaner_new/archive/v_05.tar.gz',
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[
